@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">      <!-- "include methods/TC form xml file from single class"-->
+    <classes>
+      <class name="TestNGXmlStudy.Test1">
+		<methods>
+			<include name="TC1"/>  <!-- "Include only 3 Tc out of 4 only these Tc cases are run"-->
+			<include name="TC2"/>
+			<include name="TC4"/>
+		</methods>	
+		</class>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
