@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listnerPackage.testing1">
+      <class name="TestNGStudy.FBTestclass">
         <methods>
-          <include name="S"/>
-          <include name="q"/>
+          <include name="Browserlounch"/>
+          <include name="Validateusername"/>
+          <include name="loginFB"/>
+          <include name="FBlogout"/>
         </methods>
-      </class> <!-- listnerPackage.testing1 -->
+      </class> <!-- TestNGStudy.FBTestclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

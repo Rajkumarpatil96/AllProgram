@@ -1,85 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[This is a test case 1]]>
+      <![CDATA[lounching the browser...]]>
     </line>
     <line>
-      <![CDATA[This is a test case 2]]>
+      <![CDATA[lounching the browser...]]>
     </line>
     <line>
-      <![CDATA[This is a test case 3]]>
+      <![CDATA[Entering userid and password]]>
     </line>
     <line>
-      <![CDATA[This is a test case 4]]>
+      <![CDATA[loging in..]]>
     </line>
     <line>
-      <![CDATA[This is a test case 5]]>
+      <![CDATA[Click on continue button]]>
     </line>
     <line>
-      <![CDATA[This is a test case 6]]>
+      <![CDATA[Entering userid and password]]>
+    </line>
+    <line>
+      <![CDATA[validate userid successfully,Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[loging in..]]>
+    </line>
+    <line>
+      <![CDATA[closing the browser]]>
+    </line>
+    <line>
+      <![CDATA[Click on continue button]]>
+    </line>
+    <line>
+      <![CDATA[validate userid successfully,Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[closing the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-04-05T18:22:28 IST" name="Suite" finished-at="2022-04-05T18:22:43 IST" duration-ms="15180">
+  <suite started-at="2022-04-11T18:50:23 IST" name="Suite" finished-at="2022-04-11T18:50:37 IST" duration-ms="14291">
     <groups>
     </groups>
-    <test started-at="2022-04-05T18:22:28 IST" name="Test1" finished-at="2022-04-05T18:22:40 IST" duration-ms="11650">
-      <class name="TestNgserialandparallel.SerialAndParallel3">
-        <test-method signature="Method()[pri:0, instance:TestNgserialandparallel.SerialAndParallel3@4d5d943d]" started-at="2022-04-05T18:22:28 IST" name="Method" finished-at="2022-04-05T18:22:40 IST" duration-ms="11585" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Method -->
-      </class> <!-- TestNgserialandparallel.SerialAndParallel3 -->
-    </test> <!-- Test1 -->
-    <test started-at="2022-04-05T18:22:28 IST" name="Test" finished-at="2022-04-05T18:22:43 IST" duration-ms="15180">
-      <class name="TestNgserialandparallel.SerialAndParallel2">
-        <test-method signature="Method()[pri:0, instance:TestNgserialandparallel.SerialAndParallel2@4fb61f4a]" started-at="2022-04-05T18:22:28 IST" name="Method" finished-at="2022-04-05T18:22:43 IST" duration-ms="15094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Method -->
-        <test-method signature="TC1()[pri:0, instance:TestNgserialandparallel.SerialAndParallel2@4fb61f4a]" started-at="2022-04-05T18:22:43 IST" name="TC1" finished-at="2022-04-05T18:22:43 IST" duration-ms="3" status="PASS">
+    <test started-at="2022-04-11T18:50:23 IST" name="chromeTest" finished-at="2022-04-11T18:50:32 IST" duration-ms="9246">
+      <class name="Practice.TestNgTest">
+        <test-method is-config="true" signature="lounchBrowser(java.lang.String)[pri:0, instance:Practice.TestNgTest@7d8995e]" started-at="2022-04-11T18:50:23 IST" name="lounchBrowser" finished-at="2022-04-11T18:50:28 IST" duration-ms="4912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[This is a test case 1]]>
+              <![CDATA[lounching the browser...]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method signature="TC2()[pri:0, instance:TestNgserialandparallel.SerialAndParallel2@4fb61f4a]" started-at="2022-04-05T18:22:43 IST" name="TC2" finished-at="2022-04-05T18:22:43 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- lounchBrowser -->
+        <test-method is-config="true" signature="LoginKite()[pri:0, instance:Practice.TestNgTest@7d8995e]" started-at="2022-04-11T18:50:28 IST" name="LoginKite" finished-at="2022-04-11T18:50:30 IST" duration-ms="1794" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[This is a test case 2]]>
+              <![CDATA[Entering userid and password]]>
+            </line>
+            <line>
+              <![CDATA[loging in..]]>
+            </line>
+            <line>
+              <![CDATA[Click on continue button]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method signature="TC3()[pri:0, instance:TestNgserialandparallel.SerialAndParallel2@4fb61f4a]" started-at="2022-04-05T18:22:43 IST" name="TC3" finished-at="2022-04-05T18:22:43 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- LoginKite -->
+        <test-method signature="ValidateUserId()[pri:0, instance:Practice.TestNgTest@7d8995e]" started-at="2022-04-11T18:50:30 IST" name="ValidateUserId" finished-at="2022-04-11T18:50:31 IST" duration-ms="1198" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[This is a test case 3]]>
+              <![CDATA[validate userid successfully,Test case is pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC3 -->
-        <test-method signature="TC4()[pri:0, instance:TestNgserialandparallel.SerialAndParallel2@4fb61f4a]" started-at="2022-04-05T18:22:43 IST" name="TC4" finished-at="2022-04-05T18:22:43 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- ValidateUserId -->
+        <test-method is-config="true" signature="kitelogout()[pri:0, instance:Practice.TestNgTest@7d8995e]" started-at="2022-04-11T18:50:31 IST" name="kitelogout" finished-at="2022-04-11T18:50:32 IST" duration-ms="1182" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[This is a test case 4]]>
+              <![CDATA[logout successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC4 -->
-        <test-method signature="TC5()[pri:0, instance:TestNgserialandparallel.SerialAndParallel2@4fb61f4a]" started-at="2022-04-05T18:22:43 IST" name="TC5" finished-at="2022-04-05T18:22:43 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- kitelogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Practice.TestNgTest@7d8995e]" started-at="2022-04-11T18:50:32 IST" name="closeBrowser" finished-at="2022-04-11T18:50:32 IST" duration-ms="104" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[This is a test case 5]]>
+              <![CDATA[closing the browser]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC5 -->
-        <test-method signature="TC6()[pri:0, instance:TestNgserialandparallel.SerialAndParallel2@4fb61f4a]" started-at="2022-04-05T18:22:43 IST" name="TC6" finished-at="2022-04-05T18:22:43 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Practice.TestNgTest -->
+    </test> <!-- chromeTest -->
+    <test started-at="2022-04-11T18:50:23 IST" name="firefoxtest" finished-at="2022-04-11T18:50:37 IST" duration-ms="14291">
+      <class name="Practice.TestNgTest">
+        <test-method is-config="true" signature="lounchBrowser(java.lang.String)[pri:0, instance:Practice.TestNgTest@515c6049]" started-at="2022-04-11T18:50:23 IST" name="lounchBrowser" finished-at="2022-04-11T18:50:31 IST" duration-ms="7775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[This is a test case 6]]>
+              <![CDATA[lounching the browser...]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC6 -->
-      </class> <!-- TestNgserialandparallel.SerialAndParallel2 -->
-    </test> <!-- Test -->
+        </test-method> <!-- lounchBrowser -->
+        <test-method is-config="true" signature="LoginKite()[pri:0, instance:Practice.TestNgTest@515c6049]" started-at="2022-04-11T18:50:31 IST" name="LoginKite" finished-at="2022-04-11T18:50:36 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering userid and password]]>
+            </line>
+            <line>
+              <![CDATA[loging in..]]>
+            </line>
+            <line>
+              <![CDATA[Click on continue button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginKite -->
+        <test-method signature="ValidateUserId()[pri:0, instance:Practice.TestNgTest@515c6049]" started-at="2022-04-11T18:50:36 IST" name="ValidateUserId" finished-at="2022-04-11T18:50:36 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validate userid successfully,Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserId -->
+        <test-method is-config="true" signature="kitelogout()[pri:0, instance:Practice.TestNgTest@515c6049]" started-at="2022-04-11T18:50:36 IST" name="kitelogout" finished-at="2022-04-11T18:50:37 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kitelogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Practice.TestNgTest@515c6049]" started-at="2022-04-11T18:50:37 IST" name="closeBrowser" finished-at="2022-04-11T18:50:37 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Practice.TestNgTest -->
+    </test> <!-- firefoxtest -->
   </suite> <!-- Suite -->
 </testng-results>
